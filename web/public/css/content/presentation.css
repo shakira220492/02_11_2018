@@ -1,0 +1,271 @@
+div#searchBar {
+    position: absolute;
+    z-index: 4;
+    right: 0px;
+    width: 280px;
+    top: 0px;
+    height: 30px;
+}
+
+div#searchArea {
+    position: absolute;
+    z-index: 3;
+    right: 0px;
+    width: 280px;
+    top: 30px;
+    bottom: 0px;
+    overflow: hidden;
+/*    background-color: #1ab7ea;*/
+}
+
+div#listBar {
+    position: absolute;
+    z-index: 5;
+    right: 280px;
+    width: 30px;
+    top: 0px;
+    height: 60px;
+    transition-property: all;
+    transition-duration: 2s;
+/*    background-color: #1ab7ea;*/
+}
+
+div#configurationBar {
+    position: absolute;
+    z-index: 4;
+    right: 700px;
+    width: 30px;
+    top: 0px;
+    bottom: 40px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+
+div#manage {
+    position: absolute;
+    z-index: 4;
+    right: 780px;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    bottom: 0px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+
+
+
+
+
+
+.tqm {
+    background-color: pink;
+}
+
+div.iconDiv {
+}
+
+div#donateArea {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    height: 30px;
+    width: 30px;
+    z-index: 5;
+}
+
+div#sessionArea {
+    position: absolute;
+    z-index: 3;
+    right: 65px;
+    width: 170px;
+    bottom: 50px;
+    height: 105px;
+    /*bottom: 0px;*/
+}
+
+div#presentationArea {
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    right: 280px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+div#playBanner {
+    position: absolute;
+/*    opacity: 0.2;
+    background-color: gray;*/
+    height: 40px;
+    right: 0px; 
+    bottom: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+div#invisibleLayer {
+     position: absolute;
+     opacity: 0.3;
+     z-index: 2;
+     background-color: gray;
+     top: 0px;
+     bottom: 0px;
+     right: 0px;
+     left: 0px;
+}
+
+
+
+div#configurationArea {
+    position: absolute;
+    width: 390px;
+    top: 80px;
+    bottom: 40px;
+    right: 310px;
+    overflow: hidden;
+    z-index: 3;
+/*    transition-property: all;
+    transition-duration: 2s;*/
+}
+
+div#videoInformation {
+/*    background-color: #ed1f3c;*/
+    position: absolute;
+    width: 390px;
+    top: 0px;
+    right: 310px;
+    height: 80px;
+    z-index: 3;
+    overflow: hidden;
+}
+
+
+
+div#closedCaptionArea {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    opacity: 0.5;
+    z-index: 5;
+    left: 0px;
+    width: 500px;
+    bottom: 100px;
+    height: 25px;
+    cursor: move;
+    display: block;
+}
+
+
+
+div#displaceIcon-wrapper {
+    /*background-color: orange;*/
+    position: absolute;
+    right: 300px;
+    top: 120px;
+    left: 100px;
+    bottom: 10px;
+    z-index: 8;
+    opacity: 0.5;
+}
+
+div#displaceIcon {
+    /*background-color: yellow;*/
+    position: absolute;
+    right: 700px;
+    top: 120px;
+    width: 30px;
+    height: 30px;
+    z-index: 6;
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0s;
+    cursor: pointer;
+}
+
+div#rowLeftIcon {
+    position: absolute;
+    opacity: 0.1;
+    right: 60px;
+    top: 90px;
+    width: 30px;
+    height: 30px;
+    z-index: 6;    
+}
+
+div#rowRightIcon {
+    position: absolute;
+    opacity: 0.1;
+    right: 0px;
+    top: 90px;
+    width: 30px;
+    height: 30px;
+    z-index: 6;
+}
+
+
+.animatedButton {
+    opacity: 0.3;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.animatedButton:hover {
+    opacity: 1;
+}
+
+.defaultInput {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    color: gray;
+    border: 0;
+    text-transform: uppercase;
+    align-content: center;
+}
+
+.basicButton {
+    width: 20px;
+    height: 20px;
+    color: gray;
+    background-color: white;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.thumb{
+/*     width: 100%;*/
+     height: 100%;
+     border: 1px solid #000;
+     margin: 0px 0px 0px 0px;
+}
+
+
+
+/*configurationArea
+configurationAreaBgColor*/
+
+
+
+#my_video_environment {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center; height: 100%;
+    background-color: white;
+}
+
+#my_video {
+    background-color: white;
+    margin: auto;
+}
